@@ -1,0 +1,3 @@
+[submodule "MPU6050-pico"]
+	path = MPU6050-pico
+	url = git@github.com:lk95r/MPU6050-pico.git
