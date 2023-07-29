@@ -36,8 +36,8 @@ add_executable(Gyro_Tet Gyro_Tet.cpp )
 pico_set_program_name(Gyro_Tet "Gyro_Tet")
 pico_set_program_version(Gyro_Tet "0.1")
 
-pico_enable_stdio_uart(Gyro_Tet 0)
-pico_enable_stdio_usb(Gyro_Tet 1)
+pico_enable_stdio_uart(Gyro_Tet 1)
+pico_enable_stdio_usb(Gyro_Tet 0)
 
 # Add the standard library to the build
 target_link_libraries(Gyro_Tet
